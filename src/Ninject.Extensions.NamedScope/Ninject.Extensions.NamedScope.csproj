@@ -12,7 +12,7 @@
     <AssemblyOriginatorKeyFile>..\Ninject.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>Ninject.Extensions.NamedScope</PackageId>
+    <PackageId>SquareLab.Ninject.Extensions.NamedScope</PackageId>
     <PackageTags>Ninject;ioc;di;scope</PackageTags>
     <PackageProjectUrl>http://www.ninject.org/</PackageProjectUrl>
     <PackageReleaseNotes>https://github.com/ninject/Ninject.Extensions.NamedScope/blob/master/CHANGELOG.md</PackageReleaseNotes>
@@ -23,6 +23,7 @@
     <RepositoryUrl>https://github.com/ninject/Ninject.Extensions.NamedScope</RepositoryUrl>
     <DebugType>pdbonly</DebugType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>Ninject.Extensions.NamedScope</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
